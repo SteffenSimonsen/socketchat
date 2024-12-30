@@ -49,6 +49,7 @@ int main() {
 
         if (bytes_read <= 0 ){
             printf("Server disconnected \n");
+            break;
         } 
 
         printf("Server echo: %s", buffer);
